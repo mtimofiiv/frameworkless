@@ -2,9 +2,15 @@
 ---
 @charset 'utf-8';
 
-$family-primary: 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$subtle-shade: #dedede;
-$primary: rgb(17, 171, 255);
-$size-6: 1.3em;
+$font-family: 'Nunito', sans-serif;
+$font-size: 1em;
+$font-weight: 300;
+$font-spacing: 1.625;
 
+$subtle-shade: #dedede;
+$primary: #3fa500;
 $text: #383838;
+$background: #fefefe;
+
+@import 'base';
+@import 'layout';

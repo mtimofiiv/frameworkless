@@ -1,0 +1,21 @@
+.masthead {
+  width: 100%;
+
+  text { fill: $primary; }
+}
+
+.sub-widget {
+  margin: 30px 0;
+}
+
+.sub-callout {
+  color: $primary;
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.primary-text {
+  color: $primary;
+}
