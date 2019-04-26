@@ -1,0 +1,28 @@
+title: Frameworkless JS
+email: frameworkless@fiiv.io
+description: Build an app with almost no frameworks.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://frameworkless.js.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: /:title
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-avatar
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+authors:
+  mtimofiiv:
+    full_name: Mike Timofiiv
+    twitter: mtimofiiv
+    homepage: https://fiiv.io
+    email: frameworkless@fiiv.io
