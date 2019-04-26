@@ -1,38 +1,59 @@
 ---
-layout: default
+layout: homepage
 ---
 <section>
-  <div class="masthead">
-    <svg viewBox="0 0 142 18">
-      <text x="0" y="15">FRAMEWORKLESS</text>
-    </svg>
+  <span class="cursor mono">
+    > frameworkless.js
+  </span>
 
-    <h1>How to launch an app with (almost) no frameworks</h1>
-  </div>
+  <h1>Stop learning framework after framework</h1>
 
-  <div class="container">
-    <p>
-      There are some awesome frameworks out there – Bootstrap, React, Vue, Express, Sequelize... But sometimes, you do not need them to build an awesome app.
+  <p class="leadin">
+    Frameworks are awesome, and Javascript has a ton of them, both for frontend and for backend. They make life a lot simpler – sometimes.
+  </p>
+
+  <p class="leadin">
+    But sometimes, the learning curve of learning a framework is simply not worth the effort.
+  </p>
+
+  <p class="leadin">
+    <span class="primary-text">Frameworkless.js</span> is a tutorial series to help get you up and running with your own awesome app built almost entirely from Node.js and plain, vanilla javascript.
+  </p>
+</section>
+
+<section>
+  <h2>What frameworkless.js covers</h2>
+
+  <ul>
+    <li>An HTTP server using Node's own <code>http</code> module</li>
+    <li>Routing and templating</li>
+    <li>Using plain SQL instead of ORMs, and how to work it safely</li>
+    <li>Forms – not always needing Ajax!</li>
+    <li>Frontend assets – how to set up CSS and Javascript pre-processors</li>
+    <li>Does your frontend really need a framework to be "reactive"?</li>
+    <li>Finishing touches: Gzip, Pjax, and more</li>
+    <li>Writing tests with Node.js's `assert` library</li>
+  </ul>
+</section>
+
+<section>
+  <h2>About the author</h2>
+
+  <div class="flex no-stack">
+    <p class="wide">
+      I'm <a href="https://fiiv.io">@fiiv</a> (aka Mike Timofiiv) and I've been a web developer, coding teacher and indie maker for almost 10 years. I'm mostly using Javascript these days, and I'd love to teach you what I know! about building safe, smart apps.
     </p>
-
-    <p>
-      The upcoming <span class="primary-text">Frameworkless</span> set of video tutorials by <a href="https://fiiv.io">@fiiv</a> will cover all you need to go from 0 to a fully functional Node.js app, with almost no frameworks!
-    </p>
-
-    <h2>What will be covered?</h2>
-
-    <ul>
-      <li>An HTTP server using Node's own <code>http</code> module</li>
-      <li>Routing and templating</li>
-      <li>Using plain SQL instead of ORMs, and how to work it safely</li>
-      <li>Forms – not always needing Ajax!</li>
-      <li>Frontend assets – how to set up CSS and Javascript pre-processors</li>
-      <li>Does your frontend really need a framework to be "reactive"?</li>
-      <li>Finishing touches: Gzip, Pjax, and more</li>
-      <li>Writing tests with Node.js's `assert` library</li>
-    </ul>
+    <div>
+      <figure class="avatar">
+        <img src="/assets/fiiv.jpg">
+      </figure>
+    </div>
   </div>
+</section>
 
-  <p class="sub-callout">Subscribe now! It's free ;)</p>
+<section>
+  <p class="sub-callout">
+    Interested? Subscribe here!
+  </p>
   {% include blogsend.html %}
 </section>

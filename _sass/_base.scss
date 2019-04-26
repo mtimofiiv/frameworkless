@@ -20,24 +20,33 @@ body {
 a, a:visited {
   color: $primary;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-section {
-  width: 60%;
-  margin: 0 auto;
-  position: relative;
-  top: 5%;
+main {
+  background: white;
 }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: $primary;
+section {
+  width: 90%;
+  margin: 50px auto 0 auto;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  padding: 15px 0;
+}
+
+h1 { font-size: 200%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
 
 p {
   margin: 10px 0;
@@ -124,13 +133,10 @@ header {
 }
 
 footer {
-  border: 1px solid $subtle-shade;
-  padding: 7px;
-  background: white;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
   width: 100%;
-  font-size: 80%;
+  padding: 100px 0;
+  text-align: center;
+  border-top: 1px solid $subtle-shade;
 }
 
 .button {
