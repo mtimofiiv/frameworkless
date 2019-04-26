@@ -26,7 +26,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}Frameworkless{% endif %}">
     <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:image" content="{{site.url}}{% if page.share_image %}/assets/images/post-content/{{page.share_image}}{% else %}/assets/images/hcm-share.jpg{% endif %}">
+    <meta property="og:image" content="{{site.url}}{% if page.share_image %}/assets/{{page.share_image}}{% else %}/assets/share.jpg{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
   </head>
