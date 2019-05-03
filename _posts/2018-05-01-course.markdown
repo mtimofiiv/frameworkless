@@ -1,0 +1,96 @@
+---
+layout: page
+title:  All about the course
+date:   2018-05-03 05:00:00 +0000
+masthead: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cygnus_Wall.jpg/1024px-Cygnus_Wall.jpg
+permalink: /course
+excerpt: All about the upcoming course
+---
+<section>
+  {% include wordmark.html %}
+
+  <h1>Welcome aboard! 👋</h1>
+
+  <div class="flex no-stack no-gutters">
+    <p class="wide leadin">
+      I'm your instructor, <a href="https://fiiv.io">@fiiv</a> (aka Mike Timofiiv), and I'd like to take this opportunity to welcome you to Frameworkless.js!
+    </p>
+    <div>
+      <figure class="avatar">
+        <img src="/assets/fiiv.jpg">
+      </figure>
+    </div>
+  </div>
+
+  <h2>What will you learn?</h2>
+
+  <p class="leadin">
+    You will learn the skills to build an MVP (minimal viable product) Node.js app, using simple, frameworkless code.
+  </p>
+
+  <h2>What are we building, exactly?</h2>
+
+  <p class="leadin">
+    We are going to build, deploy and launch <a href="https://remind.ist">Remind.ist</a>, a service to automatically schedule a reminder email in the future.
+  </p>
+
+  <p>
+    The build will use 0 frameworks, merely using a few simple modules to make our lives easier.
+  </p>
+
+  <p>
+    The source code will be open, complete with every step in the process.
+  </p>
+
+  <h2>Course structure</h2>
+
+  <p>
+    Obviously we're not going to build it in 1 hour. We are going to go through a series of video tutorials (I'm thinking about 6). There are going to be some other, premium ones after that as well, tackling more complex topics.
+  </p>
+
+  <p>
+    The individual tutorials will be:
+  </p>
+
+  <ol>
+    <li>
+      <strong>Intro to Node.js + a static file server</strong>: we will build a fully-functional HTTP server that can serve files from disk. This will help us get ready to implement more advanced code later!
+    </li>
+    <li>
+      <strong>Dynamic content – routes &amp; templates</strong>: in this one, we will learn how to dynamically construct HTML pages so that they display user-entered (or database) information.
+    </li>
+    <li>
+      <strong>All about forms</strong>: how to capture information your users enter.
+    </li>
+    <li>
+      <strong>Working with the database</strong>: write clean, simple and safe SQL to store and retrieve data from your PostgreSQL database.
+    </li>
+    <li>
+      <strong>Frontend – serving Javascript + Stylesheets</strong>: CSS and JS files are fine, but they can be cumbersome, so let's serve it through a very simple pipeline.
+    </li>
+    <li>
+      <strong>Cronjob + finishing touches</strong>: Get used to writing cronjobs. They don't have to be complicated – and can be written in Javascript! They let you schedule all kinds of tasks in the background. Here, we complete the app with some finishing touches and write the cronjob that will send the emails to our users.
+    </li>
+  </ol>
+
+  <p>Please note, I might tweak these slightly as the course goes on and I gather feedback!</p>
+</section>
+
+<section>
+  <h2>Join the Telegram group</h2>
+
+  <p>
+    I created a Telegram group for this course. It's going to be used for help/support, for me to gather feedback on how things are going. It's also going to be a great opportunity to network and chat with others taking the same course!
+  </p>
+
+  <p class="center padded">
+    <a href="https://t.me/frameworkless" class="button">Click here to join</a>
+  </p>
+</section>
+
+<section>
+  <p class="sub-callout">
+    Not subscribed yet?
+  </p>
+  {% include blogsend.html %}
+</section>

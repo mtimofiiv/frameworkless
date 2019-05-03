@@ -3,6 +3,7 @@ email: frameworkless@fiiv.io
 description: Build an app with almost no frameworks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://frameworkless.js.org" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: Asia/Bangkok
 
 permalink: /:title
 
