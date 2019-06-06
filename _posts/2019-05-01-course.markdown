@@ -2,7 +2,6 @@
 layout: page
 title:  All about the course
 date:   2018-05-03 05:00:00 +0000
-masthead: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cygnus_Wall.jpg/1024px-Cygnus_Wall.jpg
 permalink: /course
 excerpt: All about the upcoming course
 ---

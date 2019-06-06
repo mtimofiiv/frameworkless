@@ -1,10 +1,10 @@
 ---
 layout: page
 title:  "Part 1: Intro to Node.js + a static file server"
-date:   2019-06-06 07:00:00 +0000
+date:   2019-06-06 04:00:00 +0000
 permalink: /:categories/1
 category: course
-excerpt: In part 1, we build a static file server to get us started.
+excerpt: "In part 1, we build a static file server to get us started."
 ---
 <section>
   {% include wordmark.html %}
@@ -21,6 +21,10 @@ excerpt: In part 1, we build a static file server to get us started.
   <p>Welcome to part 1 of the <span class="primary-text">frameworkless.js</span> course!</p>
 
   <p>In this lesson, you're going to go through the fundamentals of building an HTTP server with the Node.js <code>http</code> module, and make it serve static files.</p>
+
+  <p>We will be using some simple static files (like favicons) to serve from our public folder – get a zip file of them here:<br>
+    <a href="/files/public-folder.zip">public-folder.zip</a>
+  </p>
 
   <p>Next time, we can build on this foundation to display dynamic content.</p>
 </section>
