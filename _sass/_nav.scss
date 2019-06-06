@@ -1,13 +1,35 @@
 nav {
-  text-align: right;
-  padding-right: 15px;
-  position: relative;
-  top: 155px;
+  height: 48px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background: white;
+  box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.2);
 
   ul {
+    height: 100%;
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 
     li {
+      height: 100%;
+      display: inline-block;
+      margin: 0;
+
+      a {
+        display: block;
+        height: 100%;
+        padding: 10px 14px;
+        padding-bottom: 0;
+        background: white;
+
+        &:hover {
+          color: $text;
+          text-decoration: none;
+          background: lighten($subtle-shade, 10%);
+        }
+      }
     }
   }
 }

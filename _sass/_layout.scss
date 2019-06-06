@@ -32,6 +32,40 @@ div.container {
   font-family: $font-family-mono;
 }
 
+.centered {
+  text-align: center;
+}
+
+.telegram-box {
+  padding: 15px 25px;
+  background: white;
+  border: $subtle-shade 1px solid;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 0 darken($primary, 10%);
+  font-weight: bold;
+}
+
+.choice-box {
+  background: white;
+  padding: 20px;
+  border: 1px solid $primary;
+
+  a, a:visited {
+    text-decoration: none;
+    opacity: 0.8;
+
+    &:first-child {
+      border-right: 1px solid $subtle-shade;
+    }
+
+    &:hover {
+      text-decoration: none;
+      opacity: 1;
+    }
+  }
+}
+
 .avatar {
   height: 100px;
   margin: 0 auto;

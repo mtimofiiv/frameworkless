@@ -54,7 +54,7 @@ excerpt: All about the upcoming course
 
   <ol>
     <li>
-      <strong>Intro to Node.js + a static file server</strong>: we will build a fully-functional HTTP server that can serve files from disk. This will help us get ready to implement more advanced code later!
+      <a href="/course/1"><strong>Intro to Node.js + a static file server</strong></a>: we will build a fully-functional HTTP server that can serve files from disk. This will help us get ready to implement more advanced code later!
     </li>
     <li>
       <strong>Dynamic content – routes &amp; templates</strong>: in this one, we will learn how to dynamically construct HTML pages so that they display user-entered (or database) information.
@@ -83,9 +83,7 @@ excerpt: All about the upcoming course
     I created a Telegram group for this course. It's going to be used for help/support, for me to gather feedback on how things are going. It's also going to be a great opportunity to network and chat with others taking the same course!
   </p>
 
-  <p class="center padded">
-    <a href="https://t.me/frameworkless" class="button">Click here to join</a>
-  </p>
+  {% include telegram.html %}
 </section>
 
 <section>

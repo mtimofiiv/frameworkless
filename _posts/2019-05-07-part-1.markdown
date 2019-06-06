@@ -1,0 +1,40 @@
+---
+layout: page
+title:  "Part 1: Intro to Node.js + a static file server"
+date:   2019-06-06 07:00:00 +0000
+permalink: /:categories/1
+category: course
+excerpt: In part 1, we build a static file server to get us started.
+---
+<section>
+  {% include wordmark.html %}
+
+  <h1>{{page.title}}</h1>
+
+  {% include twitch_channel.html %}
+
+  <div class="flex choice-box">
+    <a href="https://github.com/frameworkless-js/remind.ist/tree/stage/1" class="centered">Code on Github</a>
+    <a href="https://slides.com/fiiv/frameworklessjs-1/" class="centered">The Slides</a>
+  </div>
+
+  <p>Welcome to part 1 of the <span class="primary-text">frameworkless.js</span> course!</p>
+
+  <p>In this lesson, you're going to go through the fundamentals of building an HTTP server with the Node.js <code>http</code> module, and make it serve static files.</p>
+
+  <p>Next time, we can build on this foundation to display dynamic content.</p>
+</section>
+
+<section class="telegram-box">
+  <h2 class="centered">💗 Want more?</h2>
+  <p class="centered">Join the <span class="primary-text">frameworkless.js</span> community on Telegram, and take part in polls, give feedback and get additional help:</p>
+
+  {% include telegram.html %}
+</section>
+
+<section>
+  <p class="sub-callout">
+    Not subscribed yet?
+  </p>
+  {% include blogsend.html %}
+</section>
