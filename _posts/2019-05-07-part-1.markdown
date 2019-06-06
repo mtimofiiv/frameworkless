@@ -10,6 +10,8 @@ excerpt: "In part 1, we build a static file server to get us started."
   {% include wordmark.html %}
 
   <h1>{{page.title}}</h1>
+  
+  <p>🚨 Live stream starts at 1400 Indochina time/700 GMT 🚨</p>
 
   {% include twitch_channel.html %}
 
