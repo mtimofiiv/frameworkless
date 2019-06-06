@@ -1,10 +1,9 @@
 <iframe
-  src="https://player.vimeo.com/video/{{include.id}}"
+  src="https://player.twitch.tv/?autoplay=false&video={{include.id}}{% if include.start_at %}&t={{include.start_at}}{% endif %}"
   class="responsive"
-  data-width-percent="100"
-  width="640"
-  height="360"
   frameborder="0"
-  allow="autoplay; fullscreen"
-  allowfullscreen>
-</iframe>
+  allowfullscreen="true"
+  scrolling="no"
+  height="378"
+  width="620"
+></iframe>

@@ -10,10 +10,8 @@ excerpt: "In part 1, we build a static file server to get us started."
   {% include wordmark.html %}
 
   <h1>{{page.title}}</h1>
-  
-  <p>🚨 Live stream starts at 1400 Indochina time/700 GMT 🚨</p>
 
-  {% include twitch_channel.html %}
+  {% include video.html id="435160803" start_at="00h15m00s" %}
 
   <div class="flex choice-box">
     <a href="https://github.com/frameworkless-js/remind.ist/tree/stage/1" class="centered">Code on Github</a>
