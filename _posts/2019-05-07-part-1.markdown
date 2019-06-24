@@ -11,7 +11,7 @@ excerpt: "In part 1, we build a static file server to get us started."
 
   <h1>{{page.title}}</h1>
 
-  {% include video.html id="435196800" %}
+  {% include video.html id="6g3Q6qcGX44" %}
 
   <div class="flex choice-box">
     <a href="https://github.com/frameworkless-js/remind.ist/tree/stage/1" class="centered">Code on Github</a>
@@ -26,7 +26,7 @@ excerpt: "In part 1, we build a static file server to get us started."
     <a href="/files/public-folder.zip">public-folder.zip</a>
   </p>
 
-  <p>Next time, we can build on this foundation to display dynamic content.</p>
+  <p>Next time, <a href="/course/2">we can build on this foundation to display dynamic content</a>.</p>
 </section>
 
 <section class="telegram-box">

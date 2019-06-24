@@ -20,9 +20,22 @@ const responsivise = selector => {
   }
 }
 
+const dateStringParse = () => {
+  const elements = document.querySelectorAll('.need-date-parse')
+
+  for (const el of elements) {
+    if (!el.dataset || !el.dataset.dto) continue
+    const dto = Date.parse(el.dataset.dto)
+
+    countdown(dto, text => el.innerText = text)
+  }
+}
+
 const init = () => {
   window.addEventListener('resize', () => responsivise('.responsive'))
   responsivise('.responsive')
+
+  dateStringParse()
 }
 
 init()
