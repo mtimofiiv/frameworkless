@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Part 2: Dynamic content – routes & templates"
-date:   2019-06-06 04:00:00 +0000
+date:   2019-06-24 04:00:00 +0000
 permalink: /course/2
 category: course
 excerpt: "In part 1, we build a static file server to get us started."
