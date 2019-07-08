@@ -59,7 +59,7 @@ excerpt: All about the upcoming course
       <a href="/course/2"><strong>Dynamic content – routes &amp; templates</strong></a>: in this one, we will learn how to dynamically construct HTML pages so that they display user-entered (or database) information.
     </li>
     <li>
-      <strong>All about forms</strong>: how to capture information your users enter.
+      <a href="/course/3"><strong>All about forms</strong></a>: how to capture information your users enter.
     </li>
     <li>
       <strong>Working with the database</strong>: write clean, simple and safe SQL to store and retrieve data from your PostgreSQL database.
