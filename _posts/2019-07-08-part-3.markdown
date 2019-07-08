@@ -20,9 +20,9 @@ excerpt: "In part 3, we start parsing form data"
 
   <p>Welcome back to <span class="primary-text">frameworkless.js</span>!</p>
 
-  <p>In this stream, we put in place the ability to use templating, as well as including in dynamic content and routes (so not just static files).</p>
+  <p>In this stream, we are going to build a really simple form parser to handle data our users submit. Also, we're going to start using the <code>debugger</code> to give us in-depth insights when debugging!</p>
 
-  <p>Next time, we will add real user-driven functionality to our app with forms!</p>
+  <p>Next time, we are going to hook up an actual database to this and start saving data!</p>
 </section>
 
 <section class="telegram-box">
