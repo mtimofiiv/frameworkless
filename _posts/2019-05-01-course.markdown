@@ -62,7 +62,7 @@ excerpt: All about the upcoming course
       <a href="/course/3"><strong>All about forms</strong></a>: how to capture information your users enter.
     </li>
     <li>
-      <strong>Working with the database</strong>: write clean, simple and safe SQL to store and retrieve data from your PostgreSQL database.
+      <a href="/course/3"><strong>Working with the database</strong></a>: write clean, simple and safe SQL to store and retrieve data from your PostgreSQL database.
     </li>
     <li>
       <strong>Frontend – serving Javascript + Stylesheets</strong>: CSS and JS files are fine, but they can be cumbersome, so let's serve it through a very simple pipeline.
