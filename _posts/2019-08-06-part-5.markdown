@@ -1,0 +1,40 @@
+---
+layout: page
+title:  "Part 5: The frontend"
+date:   2019-08-06 05:00:00 +0000
+permalink: /course/5
+category: course
+excerpt: "In part 5, we add a few modern touches to the frontend"
+---
+<section>
+  {% include wordmark.html %}
+
+  <h1>{{page.title}}</h1>
+
+  {% include twitch_channel.html %}
+
+  <div class="flex choice-box">
+    <a href="https://github.com/frameworkless-js/remind.ist/tree/stage/5" class="centered">Code on Github</a>
+    <a href="https://slides.com/fiiv/frameworklessjs-5/" class="centered">The Slides</a>
+  </div>
+
+  <p>Welcome back to <span class="primary-text">frameworkless.js</span>!</p>
+
+  <p>In this stream, we're adding some user interface improvements through the frontend!</p>
+
+  <p>Next time, we are going to finish up and connect the mailing functionality.</p>
+</section>
+
+<section class="telegram-box">
+  <h2 class="centered">💗 Want more?</h2>
+  <p class="centered">Join the <span class="primary-text">frameworkless.js</span> community on Telegram, and take part in polls, give feedback and get additional help:</p>
+
+  {% include telegram.html %}
+</section>
+
+<section>
+  <p class="sub-callout">
+    Not subscribed yet?
+  </p>
+  {% include blogsend.html %}
+</section>

@@ -65,7 +65,7 @@ excerpt: All about the upcoming course
       <a href="/course/4"><strong>Working with the database</strong></a>: write clean, simple and safe SQL to store and retrieve data from your PostgreSQL database.
     </li>
     <li>
-      <strong>Frontend – serving Javascript + Stylesheets</strong>: CSS and JS files are fine, but they can be cumbersome, so let's serve it through a very simple pipeline.
+      <a href="/course/5"><strong>Frontend – serving Javascript + Stylesheets</strong></a>: CSS and JS files are fine, but they can be cumbersome, so let's serve it through a very simple pipeline.
     </li>
     <li>
       <strong>Cronjob + finishing touches</strong>: Get used to writing cronjobs. They don't have to be complicated – and can be written in Javascript! They let you schedule all kinds of tasks in the background. Here, we complete the app with some finishing touches and write the cronjob that will send the emails to our users.
