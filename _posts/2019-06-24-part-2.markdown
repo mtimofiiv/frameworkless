@@ -1,5 +1,5 @@
 ---
-layout: page_with_comments
+layout: page
 title:  "Part 2: Dynamic content – routes & templates"
 date:   2019-06-24 04:00:00 +0000
 permalink: /course/2
@@ -23,6 +23,10 @@ excerpt: "In part 2, we build in templates and routes!"
   <p>In this stream, we put in place the ability to use templating, as well as including in dynamic content and routes (so not just static files).</p>
 
   <p>Next time, we will add real user-driven functionality to our app with forms!</p>
+</section>
+
+<section>
+  {% include telegram_comments.html %}
 </section>
 
 <section class="telegram-box">

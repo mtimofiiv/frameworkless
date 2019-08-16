@@ -1,5 +1,5 @@
 ---
-layout: page_with_comments
+layout: page
 title:  "Part 4: Connecting a database"
 date:   2019-07-23 05:00:00 +0000
 permalink: /course/4
@@ -23,6 +23,10 @@ excerpt: "In part 4, we connect the database!"
   <p>In this stream, we're going to connect up the database to our application and start saving data to it!</p>
 
   <p>Next time, we are going to create a pipeline that builds our frontend assets so our product looks and works reactively!</p>
+</section>
+
+<section>
+  {% include telegram_comments.html %}
 </section>
 
 <section class="telegram-box">

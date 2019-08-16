@@ -1,5 +1,5 @@
 ---
-layout: page_with_comments
+layout: page
 title:  "Part 1: Intro to Node.js + a static file server"
 date:   2019-06-06 04:00:00 +0000
 permalink: /course/1
@@ -27,6 +27,10 @@ excerpt: "In part 1, we build a static file server to get us started."
   </p>
 
   <p>Next time, <a href="/course/2">we can build on this foundation to display dynamic content</a>.</p>
+</section>
+
+<section>
+  {% include telegram_comments.html %}
 </section>
 
 <section class="telegram-box">

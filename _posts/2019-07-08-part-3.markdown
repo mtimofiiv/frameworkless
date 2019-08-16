@@ -1,5 +1,5 @@
 ---
-layout: page_with_comments
+layout: page
 title:  "Part 3: Forms, and parsing user-submitted content"
 date:   2019-06-24 04:00:00 +0000
 permalink: /course/3
@@ -23,6 +23,10 @@ excerpt: "In part 3, we start parsing form data"
   <p>In this stream, we are going to build a really simple form parser to handle data our users submit. Also, we're going to start using the <code>debugger</code> to give us in-depth insights when debugging!</p>
 
   <p>Next time, we are going to hook up an actual database to this and start saving data!</p>
+</section>
+
+<section>
+  {% include telegram_comments.html %}
 </section>
 
 <section class="telegram-box">
