@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_with_comments
 title:  "Part 2: Dynamic content – routes & templates"
 date:   2019-06-24 04:00:00 +0000
 permalink: /course/2

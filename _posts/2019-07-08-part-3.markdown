@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_with_comments
 title:  "Part 3: Forms, and parsing user-submitted content"
 date:   2019-06-24 04:00:00 +0000
 permalink: /course/3

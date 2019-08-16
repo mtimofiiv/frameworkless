@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_with_comments
 title:  "Part 1: Intro to Node.js + a static file server"
 date:   2019-06-06 04:00:00 +0000
 permalink: /course/1

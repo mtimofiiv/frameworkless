@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_with_comments
 title:  "Part 4: Connecting a database"
 date:   2019-07-23 05:00:00 +0000
 permalink: /course/4
