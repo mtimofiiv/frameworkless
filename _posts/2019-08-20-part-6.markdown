@@ -1,0 +1,43 @@
+---
+layout: page
+title:  "Part 6: Email, cronjobs and deploying"
+date:   2019-08-20 03:00:00 +0000
+permalink: /course/6
+category: course
+excerpt: "In part 6, we wrap things up by adding a background task, transactional email and deploy!"
+---
+<section>
+  {% include wordmark.html %}
+
+  <h1>{{page.title}}</h1>
+
+  {% include will_stream.html datetime="20 August 2019 07:00:00 GMT" %}
+
+  <div class="flex choice-box">
+    <a href="https://github.com/frameworkless-js/remind.ist/tree/stage/6" class="centered">Code on Github</a>
+    <a href="https://slides.com/fiiv/frameworklessjs-6/" class="centered">The Slides</a>
+  </div>
+
+  <p>Welcome back to <span class="primary-text">frameworkless.js</span>!</p>
+
+  <p>We've come a long way – here we wrap up things by adding in our mailer and make sure it runs daily, as well as deploy to Heroku.</p>
+
+</section>
+
+<section>
+  {% include telegram_comments.html %}
+</section>
+
+<section class="telegram-box">
+  <h2 class="centered">💗 Want more?</h2>
+  <p class="centered">Join the <span class="primary-text">frameworkless.js</span> community on Telegram, and take part in polls, give feedback and get additional help:</p>
+
+  {% include telegram.html %}
+</section>
+
+<section>
+  <p class="sub-callout">
+    Not subscribed yet?
+  </p>
+  {% include blogsend.html %}
+</section>
