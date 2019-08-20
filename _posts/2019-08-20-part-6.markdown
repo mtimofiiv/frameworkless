@@ -11,7 +11,7 @@ excerpt: "In part 6, we wrap things up by adding a background task, transactiona
 
   <h1>{{page.title}}</h1>
 
-  {% include twitch_channel.html %}
+  {% include video.html id="Y_s6jZ0zVPg" %}
 
   <div class="flex choice-box">
     <a href="https://github.com/frameworkless-js/remind.ist/tree/stage/6" class="centered">Code on Github</a>
