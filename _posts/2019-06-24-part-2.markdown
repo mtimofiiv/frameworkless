@@ -35,10 +35,3 @@ excerpt: "In part 2, we build in templates and routes!"
 
   {% include telegram.html %}
 </section>
-
-<section>
-  <p class="sub-callout">
-    Not subscribed yet?
-  </p>
-  {% include blogsend.html %}
-</section>

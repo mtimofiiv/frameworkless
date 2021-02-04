@@ -35,10 +35,3 @@ excerpt: "In part 3, we start parsing form data"
 
   {% include telegram.html %}
 </section>
-
-<section>
-  <p class="sub-callout">
-    Not subscribed yet?
-  </p>
-  {% include blogsend.html %}
-</section>

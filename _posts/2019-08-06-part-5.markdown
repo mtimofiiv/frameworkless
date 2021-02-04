@@ -35,10 +35,3 @@ excerpt: "In part 5, we add a few modern touches to the frontend"
 
   {% include telegram.html %}
 </section>
-
-<section>
-  <p class="sub-callout">
-    Not subscribed yet?
-  </p>
-  {% include blogsend.html %}
-</section>

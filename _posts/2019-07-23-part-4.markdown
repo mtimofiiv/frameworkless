@@ -35,10 +35,3 @@ excerpt: "In part 4, we connect the database!"
 
   {% include telegram.html %}
 </section>
-
-<section>
-  <p class="sub-callout">
-    Not subscribed yet?
-  </p>
-  {% include blogsend.html %}
-</section>

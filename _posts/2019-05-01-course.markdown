@@ -84,10 +84,3 @@ excerpt: All about the upcoming course
 
   {% include telegram.html %}
 </section>
-
-<section>
-  <p class="sub-callout">
-    Not subscribed yet?
-  </p>
-  {% include blogsend.html %}
-</section>
